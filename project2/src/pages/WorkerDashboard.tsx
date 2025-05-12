@@ -93,12 +93,12 @@ const WorkerDashboard = () => {
             }}
             active={location.pathname === '/worker/chat'}
           />
-          <NavItem
+          { /*    <NavItem
             icon={<Home />}
             label="Home"
             onClick={() => navigate('/home')}
             active={false}
-          />
+          /> */}
           <NavItem
             icon={<LogOut />}
             label="Logout"
